@@ -14,7 +14,9 @@ $days: (
   'sat': 5,
   'sun': 6,
 );
+
 $calendar-width: (($cell-size * 7) + ($gap-size * 6));
+
 body {
   margin: 0;
   display: flex;
@@ -22,6 +24,7 @@ body {
   align-items: center;
   height: 100vh;
 }
+
 .calendar {
   display: flex;
   flex-flow: row wrap;
